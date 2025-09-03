@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Comandos Básicos de Git y GitHub</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2em; }
+    h1 { color: #333; }
+    pre { background: #f4f4f4; padding: 1em; border-radius: 5px; }
+    code { color: #c7254e; }
+    ul { margin-bottom: 2em; }
+  </style>
+</head>
+<body>
+  <h1>Comandos Básicos de Git y GitHub</h1>
+  <ul>
+    <li><strong>Configurar usuario:</strong>
+      <pre><code>git config --global user.name "Tu Nombre"
+git config --global user.email "tu@email.com"</code></pre>
+    </li>
+    <li><strong>Inicializar repositorio:</strong>
+      <pre><code>git init</code></pre>
+    </li>
+    <li><strong>Ver estado:</strong>
+      <pre><code>git status</code></pre>
+    </li>
+    <li><strong>Añadir archivos:</strong>
+      <pre><code>git add .</code></pre>
+    </li>
+    <li><strong>Hacer commit:</strong>
+      <pre><code>git commit -m "Mensaje del commit"</code></pre>
+    </li>
+    <li><strong>Ver historial:</strong>
+      <pre><code>git log</code></pre>
+    </li>
+    <li><strong>Crear nueva rama:</strong>
+      <pre><code>git checkout -b nombre-rama</code></pre>
+    </li>
+    <li><strong>Cambiar de rama:</strong>
+      <pre><code>git checkout nombre-rama</code></pre>
+    </li>
+    <li><strong>Subir a GitHub:</strong>
+      <pre><code>git remote add origin https://github.com/usuario/repositorio.git
+git push -u origin main</code></pre>
+    </li>
+    <li><strong>Actualizar repositorio local:</strong>
+      <pre><code>git pull origin main</code></pre>
+    </li>
+  </ul>
+</body>
+</html>
